@@ -1,140 +1,51 @@
 const perguntas = [
     {
-        pergunta: "Qual é a linguagem de programação mais utilizada para desenvolvimento web?",
+        pergunta: "Qual das seguintes atividades é uma das mais perigosas ao dirigir?",
         respostas: [
-            "Java",
-            "Python",
-            "JavaScript",
+            "Enviar mensagens de texto",
+            "Falar ao telefone",
+            "Ouvir música no celular",
         ],
-        correta: 2
+        correta: 0 // A resposta correta é enviar mensagens de texto
     },
     {
-        pergunta: "Qual é o sistema operacional desenvolvido pela Apple para seus dispositivos móveis?",
+        pergunta: "Por que é perigoso usar o celular enquanto se dirige?",
         respostas: [
-            "iOS",
-            "Android",
-            "Windows",
+            "Porque distrai o motorista e pode levar a acidentes",
+            "Porque o celular pode superaquecer e causar incêndios no carro",
+            "Porque o sinal do celular interfere no funcionamento do veículo",
         ],
-        correta: 0
+        correta: 0 // A resposta correta é porque distrai o motorista e pode levar a acidentes
     },
     {
-        pergunta: "Qual é a principal função do HTML?",
+        pergunta: "Qual é uma consequência comum do uso do celular ao volante?",
         respostas: [
-            "Estilizar páginas da web",
-            "Programar funcionalidades interativas",
-            "Definir a estrutura de uma página da web",
+            "Multas elevadas",
+            "Perda da carteira de motorista",
+            "Acidentes de trânsito",
         ],
-        correta: 2
+        correta: 2 // A resposta correta é acidentes de trânsito
     },
     {
-        pergunta: "Qual é a função do comando 'git commit'?",
+        pergunta: "O que os motoristas devem fazer para evitar distrações pelo celular?",
         respostas: [
-            "Criar um novo branch",
-            "Enviar alterações para o repositório remoto",
-            "Registrar mudanças no repositório local",
+            "Desligar o celular enquanto dirige",
+            "Usar um dispositivo de viva-voz",
+            "Estacionar o veículo para usar o celular",
         ],
-        correta: 2
+        correta: 2 // A resposta correta é estacionar o veículo para usar o celular
     },
     {
-        pergunta: "Qual é o componente principal de um computador responsável por processar dados?",
+        pergunta: "Quem está mais em risco quando um motorista usa o celular ao dirigir?",
         respostas: [
-            "Memória RAM",
-            "Placa de vídeo",
-            "Processador (CPU)",
+            "O motorista",
+            "Os pedestres",
+            "Todos os envolvidos no trânsito",
         ],
-        correta: 2
-    },
-    {
-        pergunta: "O que é CSS em desenvolvimento web?",
-        respostas: [
-            "Uma linguagem de marcação",
-            "Uma linguagem de programação",
-            "Um estilo de linguagem",
-        ],
-        correta: 2
-    },
-    {
-        pergunta: "Qual das seguintes opções não é um tipo de variável em JavaScript?",
-        respostas: [
-            "String",
-            "Integer",
-            "Boolean",
-        ],
-        correta: 1
-    },
-    {
-        pergunta: "Qual é a função do comando 'npm install'?",
-        respostas: [
-            "Iniciar um novo projeto Node.js",
-            "Instalar dependências de um projeto Node.js",
-            "Executar testes em um projeto Node.js",
-        ],
-        correta: 1
-    },
-    {
-        pergunta: "Qual é a linguagem de programação mais usada para desenvolvimento de aplicativos móveis?",
-        respostas: [
-            "C++",
-            "Java",
-            "Swift",
-        ],
-        correta: 2
-    },
-    {
-        pergunta: "Qual é o nome do banco de dados amplamente utilizado em aplicativos da web?",
-        respostas: [
-            "SQLite",
-            "MongoDB",
-            "Oracle",
-        ],
-        correta: 1
-    },
-    {
-        pergunta: "O que é um loop 'for' em programação?",
-        respostas: [
-            "Um mecanismo para manipulação de strings",
-            "Um tipo de dado em JavaScript",
-            "Uma estrutura de repetição",
-        ],
-        correta: 2
-    },
-    {
-        pergunta: "Qual é o nome do serviço de computação em nuvem fornecido pela Amazon?",
-        respostas: [
-            "Azure",
-            "Google Cloud Platform",
-            "Amazon Web Services (AWS)",
-        ],
-        correta: 2
-    },
-    {
-        pergunta: "Qual é a função da tag '<canvas>' em HTML?",
-        respostas: [
-            "Inserir imagens em uma página da web",
-            "Criar gráficos e animações interativas",
-            "Definir estilos de fonte",
-        ],
-        correta: 1
-    },
-    {
-        pergunta: "O que é um 'bug' em programação?",
-        respostas: [
-            "Um inseto irritante",
-            "Um erro ou falha em um programa de computador",
-            "Um tipo de algoritmo",
-        ],
-        correta: 1
-    },
-    {
-        pergunta: "O que é a linguagem de marcação XML?",
-        respostas: [
-            "Uma linguagem de programação",
-            "Uma linguagem de marcação de texto",
-            "Um formato de arquivo de áudio",
-        ],
-        correta: 1
+        correta: 2 // A resposta correta é todos os envolvidos no trânsito
     }
 ];
+
 //  1 declarando uma palavra chave, para buscar um id / ou class
 const quiz = document.querySelector('#quiz')
 const template = document.querySelector('template')
